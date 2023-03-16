@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.small_v_indent {
+    height: 2rem;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 3;
+}
+
+.h_indent {
+    width: 65rem;
+}
+
+.logo {
+    /* text-align: left; */
+    font-size: 33px;
+    padding-left: 80px;
+    color: #5962BA;
+}
+.logo img {
+    width: 20px;
+    margin-bottom: 1rem;
+}
+
+.links {
+    /* text-align: right; */
+    padding-right: 80px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #d600ee;
+    padding-inline: 30px;
+}
+
+.background {
+    width: 80%;
+    height: 922px;
+    margin: 0 auto;
+    background: url("./assets/main_bg_v1.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 0.7;
+    border-bottom-left-radius: 94px;
+    border-bottom-right-radius: 94px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.subsection {
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+}
+
+.system {
+    text-align: left;
+}
+
+.v_indent {
+    height: 5rem;
+}
+
+.download_button {
+    padding-top: 100px;
+}
+
+
+footer {
+    text-align: center;
+}
