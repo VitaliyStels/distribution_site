@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css"/>
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"/>
     <link href="https://github.com/VitaliyStels/distribution_site/blob/main/main.css"/>
-		<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Vi Min Distribution</title>
 		
 		<!-- Google tag (gtag.js) -->
@@ -20,42 +21,36 @@
 </script>
 </head>
 <body>
-    <div class="small_v_indent"></div>
-    <header>
+    
+    <header class="d-flex flex-row justify-content-between align-items-center position-absolute">
         <div class="logo">
-            <img src="./assets/logo_mini.png"/>
-            Vi Min
+            <img class="pl-3" src="./assets/vimin_logo.png"/>
         </div>
-        <div class="h_indent"></div>
         <div class="links">
-            <a href="#">Contacts</a>
-            <a href="#">Support</a>
+            <a class="text-nowrap" href="./support.html">Contacts & Support</a>
         </div>
     </header>
     <div class="background"></div>
-    <div class="v_indent"></div>
-    <section>
+    
+    <section class="d-flex flex-row-reverse justify-content-around pt-4 pb-5 align-items-center">
         <div class="subsection"></div>
-        <div class="subsection">
-            <div class="system">Windows</div>
-            <div class="system">Windows 10 and later</div>
-            <div class="v_indent"></div>
+        <div class="subsection ml-5">
+            <div class="pb-3 pt-5">Windows</div>
+            <div class="pb-5">Windows 10 and later</div>
             <a class="download_button" href="./dist/clock_app_win.zip?utm_source=github&utm_medium=download_windows_button&utm_campaign=clock_app" download>Download for Windows</a>
         </div>
         
         <div class="subsection">
-            <div class="system">Mac</div>
-            <div class="system">Mac OS 10.13 and later</div>
-            <div class="v_indent"></div>
+            <div class="pb-3 pt-5">Mac</div>
+            <div class="pb-5">Mac OS 10.13 and later</div>
             <a class="download_button" href="./dist/clock_app_mac.zip?utm_source=github&utm_medium=download_mac_button&utm_campaign=clock_app" download>Download for Mac</a>
         </div>
         <div class="subsection"></div>
     </section>
 
-    <div class="v_indent"></div>
-
-    <footer>
+    <footer class="pt-5 text-center">
         Copyright © Vitalii Min 2023
     </footer>
+
 </body>
 </html>
